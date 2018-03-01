@@ -25,27 +25,26 @@ import Home from './Home'
 class App extends React.Component {
   render() {
     return (
-      <div className="App-container">
-      {/* <Home /> */}
-      <div className="container"  style={{
-          padding: 30,
-          // backgroundColor: "#202C55",
-          // color: "white",
-          alignItems: "center",
-          justifyContent: "center"
-        }}>
-      hello
-      </div>
-      </div>
-      // <Router>
-      //   <div className="App-container">
-      //     <Switch>
-      //       <Route exact path="/" render={props => <Home {...props} />} />
-      //       <Route exact path="/demo" render={props => <Demo {...props} />} />
-      //       <Route render={props => <Home {...props} />} />
-      //     </Switch>
-      //   </div>
-      // </Router>
+      // <div className="App-container">
+      
+      // <div className="container"  style={{
+      //     padding: 30,
+          
+      //     alignItems: "center",
+      //     justifyContent: "center"
+      //   }}>
+      // hello
+      // </div>
+      // </div>
+      <Router>
+        <div className="App-container">
+          <Switch>
+            <Route exact path="/" render={props => <Home {...props} />} />
+            <Route exact path="/demo" render={props => <Demo {...props} />} />
+            <Route render={props => <Home {...props} />} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }

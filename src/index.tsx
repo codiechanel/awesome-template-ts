@@ -4,7 +4,7 @@ import * as ReactDOM from "react-dom";
 import * as Material from "material-ui";
 import * as style from "./style.module.css";
 import "./index.css";
-// import "./styles.css";
+import "./styles.css";
 
 // import style from './style.module.css'
 import { Hello } from "./Hello";
