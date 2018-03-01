@@ -40,13 +40,12 @@ div::-webkit-scrollbar-thumb {
   display: -ms-flexbox;
   display: flex;
   flex: 1;
-  padding: 10px;
+  padding: 5px;
   flex-direction: column;
   /* height: 90%; */
   max-height: 100%;
-  
-  overflow: auto;
-  background-color: #fff;
+
+  overflow: hidden;
   /* background-color: #202C55; */
 }
 

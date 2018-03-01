@@ -3,8 +3,9 @@ import * as ReactDOM from "react-dom";
 // import { Button } from 'material-ui';
 import * as Material from "material-ui";
 import * as style from "./style.module.css";
-import "./styles.css";
 import "./index.css";
+// import "./styles.css";
+
 // import style from './style.module.css'
 import { Hello } from "./Hello";
 import  App from './App'

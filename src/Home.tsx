@@ -44,7 +44,7 @@ class App extends React.Component {
           </div>
           <div className="special">
           <h3>Special Shapes</h3>
-            <Link to="/demo"><h3>Go to Demo</h3></Link>
+            {/* <Link to="/demo"><h3>Go to Demo</h3></Link> */}
             <p>Why are some of them so scary looking?</p>
             <Button
             // color="contrast"
