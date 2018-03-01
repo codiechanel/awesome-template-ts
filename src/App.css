@@ -1,0 +1,9 @@
+.App-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto;
+  /* background-color: #202C55; */
+}

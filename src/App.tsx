@@ -1,0 +1,35 @@
+import * as React from "react";
+import { observable, runInAction, useStrict } from "mobx"; // 3.4.1
+import { observer } from "mobx-react";
+import List, {
+  ListItem,
+  ListItemAvatar,
+  ListItemText,
+  ListItemSecondaryAction
+} from "material-ui/List";
+import FolderIcon from "material-ui-icons/Folder";
+import IconButton from "material-ui/IconButton";
+import Button from "material-ui/Button";
+import Paper from "material-ui/Paper";
+import Avatar from "material-ui/Avatar";
+import * as moment from "moment";
+import Typography from "material-ui/Typography";
+import NavigateBeforeIcon from "material-ui-icons/NavigateBefore";
+import NavigateNextIcon from "material-ui-icons/NavigateNext";
+import { TweenMax, Power2, TimelineLite } from "gsap";
+// @observer
+import "./App.css";
+import Home from './Home'
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App-container">
+      <Home />
+
+        
+      </div>
+    );
+  }
+}
+
+export default App;
