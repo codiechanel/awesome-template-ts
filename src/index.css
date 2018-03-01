@@ -26,8 +26,8 @@ div::-webkit-scrollbar-thumb {
 }
 
 #root {
-  background-color: darkgray;
-  padding: 5px;
+  /* background-color: darkgray;
+  padding: 5px; */
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +46,7 @@ div::-webkit-scrollbar-thumb {
   max-height: 100%;
 
   overflow: hidden;
-  /* background-color: #202C55; */
+  background-color: white;
 }
 
 
