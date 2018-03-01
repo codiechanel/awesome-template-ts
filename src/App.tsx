@@ -18,6 +18,7 @@ import NavigateBeforeIcon from "material-ui-icons/NavigateBefore";
 import NavigateNextIcon from "material-ui-icons/NavigateNext";
 import { TweenMax, Power2, TimelineLite } from "gsap";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Demo from './Demo'
 // @observer
 import "./App.css";
 import Home from './Home'
@@ -28,6 +29,7 @@ class App extends React.Component {
         <div className="App-container">
           <Switch>
             <Route exact path="/" render={props => <Home {...props} />} />
+            <Route exact path="/demo" render={props => <Demo {...props} />} />
             <Route render={props => <Home {...props} />} />
           </Switch>
         </div>

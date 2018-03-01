@@ -18,6 +18,7 @@ import Typography from "material-ui/Typography";
 import NavigateBeforeIcon from "material-ui-icons/NavigateBefore";
 import NavigateNextIcon from "material-ui-icons/NavigateNext";
 import { TweenMax, Power2, TimelineLite } from "gsap";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 // @observer
 class App extends React.Component {
   onFullscreen() {
@@ -42,7 +43,8 @@ class App extends React.Component {
             <p>You can find all kinds of balloon related things here.</p>
           </div>
           <div className="special">
-            <h3>Special Shapes</h3>
+          <h3>Special Shapes</h3>
+            <Link to="/demo"><h3>Go to Demo</h3></Link>
             <p>Why are some of them so scary looking?</p>
             <Button
             // color="contrast"
