@@ -46,7 +46,8 @@ div::-webkit-scrollbar-thumb {
   max-height: 100%;
   
   overflow: auto;
-  background-color: #202C55;
+  background-color: #fff;
+  /* background-color: #202C55; */
 }
 
 
