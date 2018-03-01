@@ -17,17 +17,21 @@ import Typography from "material-ui/Typography";
 import NavigateBeforeIcon from "material-ui-icons/NavigateBefore";
 import NavigateNextIcon from "material-ui-icons/NavigateNext";
 import { TweenMax, Power2, TimelineLite } from "gsap";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // @observer
 import "./App.css";
 import Home from './Home'
 class App extends React.Component {
   render() {
     return (
-      <div className="App-container">
-      <Home />
-
-        
-      </div>
+      <Router>
+        <div className="App-container">
+          <Switch>
+            <Route exact path="/" render={props => <Home {...props} />} />
+            <Route render={props => <Home {...props} />} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
