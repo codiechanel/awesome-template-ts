@@ -37,7 +37,12 @@
     You need to enable JavaScript to run this app.
   </noscript>
   <div id="root"></div>
-  <script src="bundle.js"></script>
+  
+  <!-- the / before bundle is important 
+  it allows the bundle to be loaded even if the user
+visits our app from a sub folder instead of root -->
+
+  <script src="/bundle.js"></script>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
